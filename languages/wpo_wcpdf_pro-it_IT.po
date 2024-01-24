@@ -1,0 +1,631 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices & Packing Slips Professional\n"
+"POT-Creation-Date: 2016-03-24 23:38+0100\n"
+"PO-Revision-Date: 2016-03-24 23:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/email-customer-credit-note.php:29
+msgid "Customer Credit Note"
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:30
+msgid ""
+"Customer Credit Note emails can be sent to the user with the PDF Credit Note "
+"attached."
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:36
+msgid "Credit Note for order {order_number} from {order_date}"
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:37
+msgid "Credit Note for order {order_number}"
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:38
+msgid ""
+"A refund has been issued for your order, attached to this email you will "
+"find a credit note with the details."
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:175
+msgid "Automatically send"
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:177
+msgid "Automatically send email when order status is set to refunded"
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:181
+#: ../includes/email-pdf-order-notification.php:208
+msgid "Email subject"
+msgstr "Soggetto dell'email"
+
+#: ../includes/email-customer-credit-note.php:183
+#: ../includes/email-customer-credit-note.php:190
+#: ../includes/email-customer-credit-note.php:198
+#: ../includes/email-pdf-order-notification.php:210
+#: ../includes/email-pdf-order-notification.php:217
+#: ../includes/email-pdf-order-notification.php:225
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr ""
+
+#: ../includes/email-customer-credit-note.php:188
+#: ../includes/email-pdf-order-notification.php:215
+msgid "Email heading"
+msgstr "Intestazione dell'email"
+
+#: ../includes/email-customer-credit-note.php:195
+#: ../includes/email-pdf-order-notification.php:222
+msgid "Email body text"
+msgstr "Testo dell'email"
+
+#: ../includes/email-customer-credit-note.php:203
+#: ../includes/email-pdf-order-notification.php:242
+msgid "Email type"
+msgstr "Tipo dell'email"
+
+#: ../includes/email-customer-credit-note.php:205
+#: ../includes/email-pdf-order-notification.php:244
+msgid "Choose which format of email to send."
+msgstr "Scegli quale formato di email spedire"
+
+#: ../includes/email-customer-credit-note.php:209
+#: ../includes/email-pdf-order-notification.php:248
+msgid "Plain text"
+msgstr "Testo semplice"
+
+#: ../includes/email-customer-credit-note.php:210
+#: ../includes/email-pdf-order-notification.php:249
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/email-customer-credit-note.php:211
+#: ../includes/email-pdf-order-notification.php:250
+msgid "Multipart"
+msgstr "Multipart"
+
+#: ../includes/email-pdf-order-notification.php:29
+msgid "Order Notification"
+msgstr "Notifica ordine"
+
+#: ../includes/email-pdf-order-notification.php:30
+msgid ""
+"Order Notification emails can be sent to specified email addresses, "
+"automatically & manually."
+msgstr ""
+"Le email di notifica del'ordine possono essere spedite a specifici "
+"indirizzi, automaticamente o manualmente."
+
+#: ../includes/email-pdf-order-notification.php:36
+msgid "Order Notification for order {order_number} from {order_date}"
+msgstr "Notifica per l'ordine {order_number} da {order_date}"
+
+#: ../includes/email-pdf-order-notification.php:37
+msgid "Order Notification for order {order_number}"
+msgstr "Notifica per l'ordine {order_number}"
+
+#: ../includes/email-pdf-order-notification.php:38
+msgid "An order has been placed."
+msgstr "C'è un nuovo ordine"
+
+#: ../includes/email-pdf-order-notification.php:187
+msgid "Trigger"
+msgstr "Notifiche automatiche"
+
+#: ../includes/email-pdf-order-notification.php:189
+msgid ""
+"Choose the status that should trigger this email. Note that the 'Paid' "
+"status only works for automated payment gateways (Paypal, Stripe, etc), not "
+"for BACS, COD & Cheque."
+msgstr ""
+"Scegli lo status che determinala spedizione automatica dell'email. "
+"Attenzione che lo status 'Pagato' funziona solo con i sistemi di pagamento "
+"come Paypal o Stripe, mentre non funziona con pagamenti con bonifico o "
+"assegni o contanti,"
+
+#: ../includes/email-pdf-order-notification.php:193
+msgid "Manual"
+msgstr "Manuale"
+
+#: ../includes/email-pdf-order-notification.php:194
+msgid "Order placed"
+msgstr "Nuovo Ordine"
+
+#: ../includes/email-pdf-order-notification.php:195
+msgid "Order processing"
+msgstr "Ordine in lavorazione"
+
+#: ../includes/email-pdf-order-notification.php:196
+msgid "Order completed"
+msgstr "Ordine completato"
+
+#: ../includes/email-pdf-order-notification.php:197
+msgid "Order paid"
+msgstr "Ordine pagato"
+
+#: ../includes/email-pdf-order-notification.php:201
+msgid "Recipient(s)"
+msgstr "Destinatario(i)"
+
+#: ../includes/email-pdf-order-notification.php:203
+msgid ""
+"Enter recipients (comma separated) for this email. Use {customer} to send "
+"this email to the customer."
+msgstr ""
+
+#: ../includes/email-pdf-order-notification.php:230
+msgid "Order items"
+msgstr "Prodotti dell'ordine"
+
+#: ../includes/email-pdf-order-notification.php:232
+msgid "Include order items table in email"
+msgstr "Includi nell'email la tabella dei prodotti dell'ordine"
+
+#: ../includes/email-pdf-order-notification.php:236
+#: ../includes/emails/pdf-order-notification.php:71
+#: ../includes/emails/plain/pdf-order-notification.php:60
+msgid "Customer details"
+msgstr "Dati del cliente"
+
+#: ../includes/email-pdf-order-notification.php:238
+msgid "Include customer details in email"
+msgstr "Includi nell'email i dati del cliente"
+
+#: ../includes/emails/customer-credit-note.php:25
+#: ../includes/emails/pdf-order-notification.php:21
+msgid "Order:"
+msgstr "Ordine:"
+
+#: ../includes/emails/pdf-order-notification.php:29
+#: ../templates/Simple/credit-note.php:76 ../templates/Simple/proforma.php:80
+msgid "Product"
+msgstr "Prodotto"
+
+#: ../includes/emails/pdf-order-notification.php:30
+#: ../templates/Simple/credit-note.php:77 ../templates/Simple/proforma.php:81
+msgid "Quantity"
+msgstr "Quantità"
+
+#: ../includes/emails/pdf-order-notification.php:31
+#: ../templates/Simple/credit-note.php:78 ../templates/Simple/proforma.php:82
+msgid "Price"
+msgstr "Prezzo"
+
+#: ../includes/emails/pdf-order-notification.php:74
+#: ../includes/emails/plain/pdf-order-notification.php:63
+msgid "Email:"
+msgstr "Email:"
+
+#: ../includes/emails/pdf-order-notification.php:77
+#: ../includes/emails/plain/pdf-order-notification.php:66
+msgid "Tel:"
+msgstr "Tel:"
+
+#: ../includes/emails/plain/customer-credit-note.php:23
+#: ../includes/emails/plain/pdf-order-notification.php:19
+#, php-format
+msgid "Order number: %s"
+msgstr "Numero ordine: %s"
+
+#: ../includes/emails/plain/customer-credit-note.php:24
+#: ../includes/emails/plain/pdf-order-notification.php:20
+#, php-format
+msgid "Order date: %s"
+msgstr "Data ordine: %s"
+
+#: ../includes/wcpdf-pro-functions.php:108
+#: ../includes/wcpdf-pro-writepanels.php:190 ../templates/Simple/proforma.php:9
+#: ../templates/Simple/proforma.php:21
+msgid "Proforma Invoice"
+msgstr "Fattura pro-forma"
+
+#: ../includes/wcpdf-pro-functions.php:111
+#: ../includes/wcpdf-pro-settings.php:212
+#: ../includes/wcpdf-pro-writepanels.php:156
+#: ../includes/wcpdf-pro-writepanels.php:172
+#: ../templates/Simple/credit-note.php:9 ../templates/Simple/credit-note.php:21
+msgid "Credit Note"
+msgstr "Nota di credito"
+
+# pdf filename string - please avoid special characters!
+#: ../includes/wcpdf-pro-functions.php:180
+msgid "proforma-invoice"
+msgid_plural "proforma-invoices"
+msgstr[0] "fattura-pro-forma"
+msgstr[1] "fatture-pro-forma"
+
+# pdf filename string - please avoid special characters!
+#: ../includes/wcpdf-pro-functions.php:184
+msgid "credit-note"
+msgid_plural "credit-notes"
+msgstr[0] "nota-di-credito"
+msgstr[1] "note-di-credito"
+
+#: ../includes/wcpdf-pro-functions.php:566
+msgid "Original Invoice Number:"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:56
+msgid "Save translations"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:116
+msgid "Translate"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:138
+msgid ""
+"<b>Warning!</b> Your WooCommerce PDF Invoices & Packing Slips template "
+"folder does not contain templates for credit notes and/or proforma invoices."
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:139
+#, php-format
+msgid ""
+"If you are using WP Overnight premium templates, please update to the latest "
+"version. Otherwise copy the template files located in %s and adapt them to "
+"your own template."
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:156
+#, php-format
+msgid ""
+"<b>Important note:</b> WooCommerce 2.2.7 or newer is required to print "
+"credit notes. You are currently using WooCommerce %s"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:181
+msgid "Attachments"
+msgstr "Allegati"
+
+#: ../includes/wcpdf-pro-settings.php:189
+#: ../includes/wcpdf-pro-settings.php:213
+msgid "Static files"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:196
+msgid "Select a file to attach"
+msgstr "Seleziona un file da allegare"
+
+#: ../includes/wcpdf-pro-settings.php:197
+msgid "Set file"
+msgstr "Imposta file"
+
+#: ../includes/wcpdf-pro-settings.php:198
+msgid "Remove file"
+msgstr "Rimuovi file"
+
+#: ../includes/wcpdf-pro-settings.php:203
+msgid "Admin New Order email"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:204
+msgid "Customer Processing Order email"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:205
+msgid "Customer Completed Order email"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:206
+msgid "Customer Invoice email"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:210
+msgid "Proforma"
+msgstr "Pro-forma"
+
+#: ../includes/wcpdf-pro-settings.php:211
+msgid "Packing Slip"
+msgstr "Documento di trasporto"
+
+#: ../includes/wcpdf-pro-settings.php:224
+msgid "Pro attachment settings"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:233
+msgid ""
+"Please note that the more files you attach, the longer the processing time. "
+"This is especially relevant for the emails that are sent at checkout!"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:243
+msgid "Credit Notes / Refunds"
+msgstr "Note di credito / Rimborsi"
+
+#: ../includes/wcpdf-pro-settings.php:250
+msgid "Subtract refunded item quantities from packing slip"
+msgstr "Sottrai la quantità dei prodotti rimborsati dal DDT"
+
+#: ../includes/wcpdf-pro-settings.php:262
+msgid "Use positive prices"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:269
+msgid ""
+"Prices in Credit Notes are negative by default, but some countries (like "
+"Germany) require positive prices."
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:275
+#: ../includes/wcpdf-pro-settings.php:381
+msgid "Numbering system"
+msgstr "Sistema di numerazione"
+
+#: ../includes/wcpdf-pro-settings.php:283
+#: ../includes/wcpdf-pro-settings.php:389
+msgid "Main invoice numbering"
+msgstr "Numerazione delle fatture principale"
+
+#: ../includes/wcpdf-pro-settings.php:284
+msgid "Separate credit note numbering"
+msgstr "Numerazione separata delle note di credito"
+
+#: ../includes/wcpdf-pro-settings.php:291
+msgid "Show original invoice number"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:303
+msgid "Display credit note date"
+msgstr "Mostra la data della nota di credito"
+
+#: ../includes/wcpdf-pro-settings.php:315
+#: ../includes/wcpdf-pro-settings.php:409
+msgid "Next number (without prefix/suffix etc.)"
+msgstr "Numero successivo (senza prefisso, suffisso, ecc.)"
+
+#: ../includes/wcpdf-pro-settings.php:323
+msgid ""
+"This is the number that will be used for the next Credit Note that is "
+"generated (manually or automatically)"
+msgstr ""
+"Questo è il numero che verrà riportato nella prossima Nota di credito, "
+"generata automaticamente o manualmente."
+
+#: ../includes/wcpdf-pro-settings.php:329
+#: ../includes/wcpdf-pro-settings.php:422
+msgid "Number format"
+msgstr "Formato numero"
+
+#: ../includes/wcpdf-pro-settings.php:338
+#: ../includes/wcpdf-pro-settings.php:431
+msgid "Prefix"
+msgstr "Prefisso"
+
+#: ../includes/wcpdf-pro-settings.php:340
+msgid ""
+"to use the order year and/or month, use [order_year] or [order_month] "
+"respectively"
+msgstr ""
+"per usare l'anno o il mese dell'ordine, inserisci rispettivamente "
+"[order_year] o [order_month]"
+
+#: ../includes/wcpdf-pro-settings.php:343
+#: ../includes/wcpdf-pro-settings.php:436
+msgid "Suffix"
+msgstr "Suffisso"
+
+#: ../includes/wcpdf-pro-settings.php:348
+#: ../includes/wcpdf-pro-settings.php:441
+msgid "Padding"
+msgstr "Numero Cifre"
+
+#: ../includes/wcpdf-pro-settings.php:350
+msgid "enter the number of digits here - enter \"6\" to display 42 as 000042"
+msgstr ""
+"inserisci qui il numero di cifre - scrivi \"6\" per visualizzare 42 come "
+"000042"
+
+#: ../includes/wcpdf-pro-settings.php:362
+msgid "Proforma Invoices"
+msgstr "Fatture pro-forma"
+
+#: ../includes/wcpdf-pro-settings.php:369
+msgid "Enable Proforma Invoices"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:390
+msgid "Separate proforma invoice numbering"
+msgstr "Numerazione separata delle fatture pro-forma"
+
+#: ../includes/wcpdf-pro-settings.php:397
+msgid "Display proforma invoice date"
+msgstr "Mostra la data della fattura pro-forma"
+
+#: ../includes/wcpdf-pro-settings.php:455
+msgid "Address customization"
+msgstr "Personalizzazione dell'indirizzo"
+
+#: ../includes/wcpdf-pro-settings.php:462
+msgid "Billing address"
+msgstr "Indirizzo di fatturazione"
+
+#: ../includes/wcpdf-pro-settings.php:477
+msgid "Shipping address"
+msgstr "Indirizzo del destinatario"
+
+#: ../includes/wcpdf-pro-settings.php:491
+msgid "Remove empty lines"
+msgstr "Rimuovi righe vuote"
+
+#: ../includes/wcpdf-pro-settings.php:498
+msgid ""
+"Enable this option if you want to remove empty lines left over from empty "
+"address/placeholder replacements"
+msgstr ""
+"Abilita questa opzione de vuoi rimuovere le righe vuote lasciate da "
+"indirizzi vuoti o altre sostituzioni"
+
+#: ../includes/wcpdf-pro-settings.php:536
+msgid "Pro"
+msgstr "Pro"
+
+#: ../includes/wcpdf-pro-settings.php:665
+msgid ""
+"Here you can modify the way the shipping and billing address are formatted "
+"in the PDF documents as well as add custom fields to them."
+msgstr ""
+"Qui puoi modificare il modo in cui sono formattati, nel documento PDF, gli "
+"indirizzi di spedizione o di fatturazione. Puoi anche aggiungere campi "
+"personalizzati."
+
+#: ../includes/wcpdf-pro-settings.php:666
+msgid ""
+"You can use the following placeholders in addition to regular text and html "
+"tags (like h1, h2, b):"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:670
+msgid "Billing fields"
+msgstr "Campi di fatturazione"
+
+#: ../includes/wcpdf-pro-settings.php:671
+msgid "Shipping fields"
+msgstr "Campi di spedizione"
+
+#: ../includes/wcpdf-pro-settings.php:672
+msgid "Custom fields"
+msgstr "Campi personalizzati"
+
+#: ../includes/wcpdf-pro-settings.php:711
+msgid "Leave empty to use the default formatting."
+msgstr "Lascia vuoto per usare la formattazione di default"
+
+#: ../includes/wcpdf-pro-writepanels.php:33
+#, php-format
+msgid ""
+"WooCommerce PDF Invoices & Packing Slips Professional requires the %sbase "
+"plugin (free)%s to be installed & activated!"
+msgstr ""
+
+#: ../includes/wcpdf-pro-writepanels.php:51
+#: ../includes/wcpdf-pro-writepanels.php:103
+msgid "PDF Proforma"
+msgstr "pro-forma PDF"
+
+#: ../includes/wcpdf-pro-writepanels.php:64
+#: ../includes/wcpdf-pro-writepanels.php:113
+msgid "PDF Credit Note"
+msgstr "Nota di credito PDF"
+
+#: ../includes/wcpdf-pro-writepanels.php:81
+msgid "PDF Proformas"
+msgstr "fatture pro-forma PDF"
+
+#: ../includes/wcpdf-pro-writepanels.php:85
+msgid "PDF Credit Notes"
+msgstr "Note di credito PDF"
+
+#: ../includes/wcpdf-pro-writepanels.php:174
+msgid "Credit Note Number (unformatted!)"
+msgstr ""
+
+#: ../includes/wcpdf-pro-writepanels.php:178
+#: ../templates/Simple/credit-note.php:53
+msgid "Credit Note Date:"
+msgstr "Data della nota di credito:"
+
+#: ../includes/wcpdf-pro-writepanels.php:179
+#: ../includes/wcpdf-pro-writepanels.php:197
+msgid "h"
+msgstr ""
+
+#: ../includes/wcpdf-pro-writepanels.php:179
+#: ../includes/wcpdf-pro-writepanels.php:197
+msgid "m"
+msgstr ""
+
+#: ../includes/wcpdf-pro-writepanels.php:192
+msgid "Proforma Invoice Number (unformatted!)"
+msgstr ""
+
+#: ../includes/wcpdf-pro-writepanels.php:196
+#: ../templates/Simple/proforma.php:53
+msgid "Proforma Invoice Date:"
+msgstr "Data della fattura pro-forma:"
+
+#: ../includes/wcpdf-pro-writepanels.php:253
+msgid "Download Proforma Invoice (PDF)"
+msgstr "Download fattura pro-forma (PDF)"
+
+#: ../includes/wcpdf-pro-writepanels.php:264
+msgid "Download Credit Note (PDF)"
+msgstr "Download Nota di credito (PDF)"
+
+#: ../templates/Simple/credit-note.php:29 ../templates/Simple/proforma.php:29
+msgid "Billing Address:"
+msgstr "Indirizzo di fatturazione:"
+
+#: ../templates/Simple/credit-note.php:40 ../templates/Simple/proforma.php:40
+msgid "Ship To:"
+msgstr "Spedire a:"
+
+#: ../templates/Simple/credit-note.php:48
+msgid "Credit Note Number:"
+msgstr "Numero della nota di credito:"
+
+#: ../templates/Simple/credit-note.php:58 ../templates/Simple/proforma.php:58
+msgid "Order Number:"
+msgstr "Numero dell'ordine:"
+
+#: ../templates/Simple/credit-note.php:62 ../templates/Simple/proforma.php:62
+msgid "Order Date:"
+msgstr "Data dell'ordine:"
+
+#: ../templates/Simple/credit-note.php:85 ../templates/Simple/proforma.php:89
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../templates/Simple/credit-note.php:90 ../templates/Simple/proforma.php:94
+msgid "SKU"
+msgstr "Codice prodotto"
+
+#: ../templates/Simple/credit-note.php:91 ../templates/Simple/proforma.php:95
+msgid "SKU:"
+msgstr "Codice prodotto:"
+
+#: ../templates/Simple/credit-note.php:92 ../templates/Simple/proforma.php:96
+msgid "Weight:"
+msgstr "Peso:"
+
+#: ../templates/Simple/credit-note.php:106
+msgid "Reason for refund"
+msgstr "Motivo del rimborso"
+
+#: ../templates/Simple/proforma.php:48
+msgid "Proforma Invoice Number:"
+msgstr "Numero della fattura pro-forma:"
+
+#: ../templates/Simple/proforma.php:66
+msgid "Payment Method:"
+msgstr "Metodo di pagamento:"
+
+#: ../templates/Simple/proforma.php:110
+msgid "Customer Notes"
+msgstr "Note del Cliente"
+
+#: ../woocommerce-pdf-ips-pro.php:127
+#, php-format
+msgid ""
+"WooCommerce PDF Invoices & Packing Slips Professional requires %sWooCommerce"
+"%s to be installed & activated!"
+msgstr ""
+"WooCommerce PDF Invoices & Packing Slips richiede %sWooCommerce%s per essere "
+"installato e attivato!"
+
+#~ msgid "Enter recipients (comma separated) for this email."
+#~ msgstr "Inserisci i destinatari di questa email (separati da virgole)"

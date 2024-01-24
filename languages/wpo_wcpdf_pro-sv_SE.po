@@ -1,0 +1,650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices & Packing Slips Professional\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-24 23:39+0100\n"
+"PO-Revision-Date: 2016-03-24 23:39+0100\n"
+"Last-Translator: conney@johansen.se <conney@johansen.se>\n"
+"Language-Team: WP Overnight <support@wpovernight.com>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: sv_SE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/email-customer-credit-note.php:29
+msgid "Customer Credit Note"
+msgstr "Kundkreditfaktura"
+
+#: ../includes/email-customer-credit-note.php:30
+msgid ""
+"Customer Credit Note emails can be sent to the user with the PDF Credit Note "
+"attached."
+msgstr "Kan skicka PDF kreditfaktura till användaren, bifogat i E-post. "
+
+#: ../includes/email-customer-credit-note.php:36
+msgid "Credit Note for order {order_number} from {order_date}"
+msgstr "Kreditfaktura för order {order_number} från {order_date}"
+
+#: ../includes/email-customer-credit-note.php:37
+msgid "Credit Note for order {order_number}"
+msgstr "Kreditfaktura för order {order_number}"
+
+#: ../includes/email-customer-credit-note.php:38
+msgid ""
+"A refund has been issued for your order, attached to this email you will "
+"find a credit note with the details."
+msgstr ""
+"En återbetalning har blivit skapad för din order, bifogat i denna e-post "
+"finner ni kreditfakturan med information."
+
+#: ../includes/email-customer-credit-note.php:175
+msgid "Automatically send"
+msgstr "Skickas automatiskt"
+
+#: ../includes/email-customer-credit-note.php:177
+msgid "Automatically send email when order status is set to refunded"
+msgstr "Skicka automatiskt e-post när orderstatus är satt till återbetald"
+
+#: ../includes/email-customer-credit-note.php:181
+#: ../includes/email-pdf-order-notification.php:208
+msgid "Email subject"
+msgstr "E-post ämnesrubrik"
+
+#: ../includes/email-customer-credit-note.php:183
+#: ../includes/email-customer-credit-note.php:190
+#: ../includes/email-customer-credit-note.php:198
+#: ../includes/email-pdf-order-notification.php:210
+#: ../includes/email-pdf-order-notification.php:217
+#: ../includes/email-pdf-order-notification.php:225
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr "Standardvärde<code>%s</code>"
+
+#: ../includes/email-customer-credit-note.php:188
+#: ../includes/email-pdf-order-notification.php:215
+msgid "Email heading"
+msgstr "E-post rubrik"
+
+#: ../includes/email-customer-credit-note.php:195
+#: ../includes/email-pdf-order-notification.php:222
+msgid "Email body text"
+msgstr "E-post brödtext"
+
+#: ../includes/email-customer-credit-note.php:203
+#: ../includes/email-pdf-order-notification.php:242
+msgid "Email type"
+msgstr "E-post typ"
+
+#: ../includes/email-customer-credit-note.php:205
+#: ../includes/email-pdf-order-notification.php:244
+msgid "Choose which format of email to send."
+msgstr "Välj vilket e-post format som ska skickas."
+
+#: ../includes/email-customer-credit-note.php:209
+#: ../includes/email-pdf-order-notification.php:248
+msgid "Plain text"
+msgstr "Endast text"
+
+#: ../includes/email-customer-credit-note.php:210
+#: ../includes/email-pdf-order-notification.php:249
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/email-customer-credit-note.php:211
+#: ../includes/email-pdf-order-notification.php:250
+msgid "Multipart"
+msgstr "HTML och Text"
+
+#: ../includes/email-pdf-order-notification.php:29
+msgid "Order Notification"
+msgstr "Ordermeddelande"
+
+#: ../includes/email-pdf-order-notification.php:30
+msgid ""
+"Order Notification emails can be sent to specified email addresses, "
+"automatically & manually."
+msgstr ""
+"Ordermeddelande via e-post kan bli skickat till en specifik e-post adress, "
+"automatiskt och manuellt."
+
+#: ../includes/email-pdf-order-notification.php:36
+msgid "Order Notification for order {order_number} from {order_date}"
+msgstr "Ordermeddelande för order {order_number} från {order_date}"
+
+#: ../includes/email-pdf-order-notification.php:37
+msgid "Order Notification for order {order_number}"
+msgstr "Ordermeddelande för order {order_number}"
+
+#: ../includes/email-pdf-order-notification.php:38
+msgid "An order has been placed."
+msgstr "En order har lagts."
+
+#: ../includes/email-pdf-order-notification.php:187
+msgid "Trigger"
+msgstr "Trigger"
+
+#: ../includes/email-pdf-order-notification.php:189
+msgid ""
+"Choose the status that should trigger this email. Note that the 'Paid' "
+"status only works for automated payment gateways (Paypal, Stripe, etc), not "
+"for BACS, COD & Cheque."
+msgstr ""
+"Välj vilken status som utlöser \"Triggern\" på denna e-post. Tänk på att "
+"\"betalnings\" status endast fungerar för automatiserade betalningssystem "
+"som (Paypal, Stripe, etc), inte för BACS, check och förskottsbetalningar. "
+
+#: ../includes/email-pdf-order-notification.php:193
+msgid "Manual"
+msgstr "Manuellt"
+
+#: ../includes/email-pdf-order-notification.php:194
+msgid "Order placed"
+msgstr "vid ny order "
+
+#: ../includes/email-pdf-order-notification.php:195
+msgid "Order processing"
+msgstr "vid bearbetad order"
+
+#: ../includes/email-pdf-order-notification.php:196
+msgid "Order completed"
+msgstr "vid genomförd order"
+
+#: ../includes/email-pdf-order-notification.php:197
+msgid "Order paid"
+msgstr "vid kundfaktura"
+
+#: ../includes/email-pdf-order-notification.php:201
+msgid "Recipient(s)"
+msgstr "Mottagare"
+
+#: ../includes/email-pdf-order-notification.php:203
+msgid ""
+"Enter recipients (comma separated) for this email. Use {customer} to send "
+"this email to the customer."
+msgstr ""
+
+#: ../includes/email-pdf-order-notification.php:230
+msgid "Order items"
+msgstr "Beställda varor"
+
+#: ../includes/email-pdf-order-notification.php:232
+msgid "Include order items table in email"
+msgstr "Inkludera beställa produkter tabell i e-post"
+
+#: ../includes/email-pdf-order-notification.php:236
+#: ../includes/emails/pdf-order-notification.php:71
+#: ../includes/emails/plain/pdf-order-notification.php:60
+msgid "Customer details"
+msgstr "Kunduppgifter"
+
+#: ../includes/email-pdf-order-notification.php:238
+msgid "Include customer details in email"
+msgstr "Inkludera kunduppgifter i e-post"
+
+#: ../includes/emails/customer-credit-note.php:25
+#: ../includes/emails/pdf-order-notification.php:21
+msgid "Order:"
+msgstr "Order:"
+
+#: ../includes/emails/pdf-order-notification.php:29
+#: ../templates/Simple/credit-note.php:76 ../templates/Simple/proforma.php:80
+msgid "Product"
+msgstr "Produkt:"
+
+#: ../includes/emails/pdf-order-notification.php:30
+#: ../templates/Simple/credit-note.php:77 ../templates/Simple/proforma.php:81
+msgid "Quantity"
+msgstr "Antal:"
+
+#: ../includes/emails/pdf-order-notification.php:31
+#: ../templates/Simple/credit-note.php:78 ../templates/Simple/proforma.php:82
+msgid "Price"
+msgstr "Pris:"
+
+#: ../includes/emails/pdf-order-notification.php:74
+#: ../includes/emails/plain/pdf-order-notification.php:63
+msgid "Email:"
+msgstr "E-post:"
+
+#: ../includes/emails/pdf-order-notification.php:77
+#: ../includes/emails/plain/pdf-order-notification.php:66
+msgid "Tel:"
+msgstr "Tele:"
+
+#: ../includes/emails/plain/customer-credit-note.php:23
+#: ../includes/emails/plain/pdf-order-notification.php:19
+#, php-format
+msgid "Order number: %s"
+msgstr "Ordernummer: %s"
+
+#: ../includes/emails/plain/customer-credit-note.php:24
+#: ../includes/emails/plain/pdf-order-notification.php:20
+#, php-format
+msgid "Order date: %s"
+msgstr "Orderdag. %s"
+
+#: ../includes/wcpdf-pro-functions.php:108
+#: ../includes/wcpdf-pro-writepanels.php:190 ../templates/Simple/proforma.php:9
+#: ../templates/Simple/proforma.php:21
+msgid "Proforma Invoice"
+msgstr "Proformafaktura"
+
+#: ../includes/wcpdf-pro-functions.php:111
+#: ../includes/wcpdf-pro-settings.php:212
+#: ../includes/wcpdf-pro-writepanels.php:156
+#: ../includes/wcpdf-pro-writepanels.php:172
+#: ../templates/Simple/credit-note.php:9 ../templates/Simple/credit-note.php:21
+msgid "Credit Note"
+msgstr "Kreditfaktura"
+
+#: ../includes/wcpdf-pro-functions.php:180
+msgid "proforma-invoice"
+msgid_plural "proforma-invoices"
+msgstr[0] "proformafaktura"
+msgstr[1] "proformafakturor"
+
+#: ../includes/wcpdf-pro-functions.php:184
+msgid "credit-note"
+msgid_plural "credit-notes"
+msgstr[0] "kreditfaktura"
+msgstr[1] "kreditfakturor"
+
+#: ../includes/wcpdf-pro-functions.php:566
+msgid "Original Invoice Number:"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:56
+msgid "Save translations"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:116
+msgid "Translate"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:138
+msgid ""
+"<b>Warning!</b> Your WooCommerce PDF Invoices & Packing Slips template "
+"folder does not contain templates for credit notes and/or proforma invoices."
+msgstr ""
+"<b>Varning!</b> Din WooCommerce PDF Invoices & Packing Slips template mapp "
+"innehåller ingen mall för kreditfakturor och/eller proformafakturor."
+
+#: ../includes/wcpdf-pro-settings.php:139
+#, php-format
+msgid ""
+"If you are using WP Overnight premium templates, please update to the latest "
+"version. Otherwise copy the template files located in %s and adapt them to "
+"your own template."
+msgstr ""
+"Om du använder WP Overnight premium mallen, vänligen uppdatera till senaste "
+"version. Annars, kopiera mallens filer i   %s och anpassa de till din egen "
+"mall."
+
+#: ../includes/wcpdf-pro-settings.php:156
+#, php-format
+msgid ""
+"<b>Important note:</b> WooCommerce 2.2.7 or newer is required to print "
+"credit notes. You are currently using WooCommerce %s"
+msgstr ""
+"<b>Information:</b> WooCommerce 2.2.7 eller nyare krävs för att skriva ut "
+"kreditnotor. Du använder för närvarande WooCommerce% s"
+
+#: ../includes/wcpdf-pro-settings.php:181
+msgid "Attachments"
+msgstr "Bilagor"
+
+#: ../includes/wcpdf-pro-settings.php:189
+#: ../includes/wcpdf-pro-settings.php:213
+msgid "Static files"
+msgstr "Statisk fil"
+
+#: ../includes/wcpdf-pro-settings.php:196
+msgid "Select a file to attach"
+msgstr "Välj en fil att bifoga"
+
+#: ../includes/wcpdf-pro-settings.php:197
+msgid "Set file"
+msgstr "Välj fil"
+
+#: ../includes/wcpdf-pro-settings.php:198
+msgid "Remove file"
+msgstr "Ta bort fil"
+
+#: ../includes/wcpdf-pro-settings.php:203
+msgid "Admin New Order email"
+msgstr "vid ny order"
+
+#: ../includes/wcpdf-pro-settings.php:204
+msgid "Customer Processing Order email"
+msgstr "vid bearbetad order"
+
+#: ../includes/wcpdf-pro-settings.php:205
+msgid "Customer Completed Order email"
+msgstr "vid genomförd order"
+
+#: ../includes/wcpdf-pro-settings.php:206
+msgid "Customer Invoice email"
+msgstr "vid kundfaktura"
+
+#: ../includes/wcpdf-pro-settings.php:210
+msgid "Proforma"
+msgstr "Proforma"
+
+#: ../includes/wcpdf-pro-settings.php:211
+msgid "Packing Slip"
+msgstr "Följesedel"
+
+#: ../includes/wcpdf-pro-settings.php:224
+msgid "Pro attachment settings"
+msgstr "Premiuminställningar för bilagor"
+
+#: ../includes/wcpdf-pro-settings.php:233
+msgid ""
+"Please note that the more files you attach, the longer the processing time. "
+"This is especially relevant for the emails that are sent at checkout!"
+msgstr ""
+"Observera att ju fler filer du bifogar, ju längre är handläggningstiden. "
+"Detta är särskilt relevant för de e\n"
+"-\n"
+"postmeddelanden som skickas i kassan!"
+
+#: ../includes/wcpdf-pro-settings.php:243
+msgid "Credit Notes / Refunds"
+msgstr "Kreditfaktura  / Återbetalning"
+
+#: ../includes/wcpdf-pro-settings.php:250
+msgid "Subtract refunded item quantities from packing slip"
+msgstr "Dra ifrån återbetalda artikelantal på följesedeln. "
+
+#: ../includes/wcpdf-pro-settings.php:262
+msgid "Use positive prices"
+msgstr "Använda positiva priser"
+
+#: ../includes/wcpdf-pro-settings.php:269
+msgid ""
+"Prices in Credit Notes are negative by default, but some countries (like "
+"Germany) require positive prices."
+msgstr ""
+"Priserna i kreditnotor är negativa som standard, men vissa länder (som "
+"Tyskland) kräver positiva priser."
+
+#: ../includes/wcpdf-pro-settings.php:275
+#: ../includes/wcpdf-pro-settings.php:381
+msgid "Numbering system"
+msgstr "Numreringssystem"
+
+#: ../includes/wcpdf-pro-settings.php:283
+#: ../includes/wcpdf-pro-settings.php:389
+msgid "Main invoice numbering"
+msgstr "Huvudfakturanumrering"
+
+#: ../includes/wcpdf-pro-settings.php:284
+msgid "Separate credit note numbering"
+msgstr "Separat kreditfakturanumrering"
+
+#: ../includes/wcpdf-pro-settings.php:291
+msgid "Show original invoice number"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:303
+msgid "Display credit note date"
+msgstr "Visa kreditfakturadatum"
+
+#: ../includes/wcpdf-pro-settings.php:315
+#: ../includes/wcpdf-pro-settings.php:409
+msgid "Next number (without prefix/suffix etc.)"
+msgstr "Nästa nummer (utan prefix / suffix etc.)"
+
+#: ../includes/wcpdf-pro-settings.php:323
+msgid ""
+"This is the number that will be used for the next Credit Note that is "
+"generated (manually or automatically)"
+msgstr ""
+"Detta är det nummer som kommer att användas för nästa kreditfaktura som "
+"genereras (manuellt eller automatiskt)"
+
+#: ../includes/wcpdf-pro-settings.php:329
+#: ../includes/wcpdf-pro-settings.php:422
+msgid "Number format"
+msgstr "Nummerformat"
+
+#: ../includes/wcpdf-pro-settings.php:338
+#: ../includes/wcpdf-pro-settings.php:431
+msgid "Prefix"
+msgstr "Prefix"
+
+#: ../includes/wcpdf-pro-settings.php:340
+msgid ""
+"to use the order year and/or month, use [order_year] or [order_month] "
+"respectively"
+msgstr ""
+"för att använda order datum eller månad , använd  [order_year] eller "
+"[order_month]"
+
+#: ../includes/wcpdf-pro-settings.php:343
+#: ../includes/wcpdf-pro-settings.php:436
+msgid "Suffix"
+msgstr "Sufflix"
+
+#: ../includes/wcpdf-pro-settings.php:348
+#: ../includes/wcpdf-pro-settings.php:441
+msgid "Padding"
+msgstr "Utfyllnad"
+
+#: ../includes/wcpdf-pro-settings.php:350
+msgid "enter the number of digits here - enter \"6\" to display 42 as 000042"
+msgstr "fyll i antalet värdesiffror här. Skriv \"6\" så visas 42 som 000042"
+
+#: ../includes/wcpdf-pro-settings.php:362
+msgid "Proforma Invoices"
+msgstr "Proformafaktura"
+
+#: ../includes/wcpdf-pro-settings.php:369
+msgid "Enable Proforma Invoices"
+msgstr ""
+
+#: ../includes/wcpdf-pro-settings.php:390
+msgid "Separate proforma invoice numbering"
+msgstr "Separat proformafakturanummerformat"
+
+#: ../includes/wcpdf-pro-settings.php:397
+msgid "Display proforma invoice date"
+msgstr "Visa proformafakturadatum"
+
+#: ../includes/wcpdf-pro-settings.php:455
+msgid "Address customization"
+msgstr "Anpassa adress"
+
+#: ../includes/wcpdf-pro-settings.php:462
+msgid "Billing address"
+msgstr "Fakturaadress"
+
+#: ../includes/wcpdf-pro-settings.php:477
+msgid "Shipping address"
+msgstr "Leveransadress"
+
+#: ../includes/wcpdf-pro-settings.php:491
+msgid "Remove empty lines"
+msgstr "Ta bort tomma rader"
+
+#: ../includes/wcpdf-pro-settings.php:498
+msgid ""
+"Enable this option if you want to remove empty lines left over from empty "
+"address/placeholder replacements"
+msgstr ""
+"Aktivera det här alternativet om du vill ta bort tomma rader, från tomma "
+"adress / platshållare ersättare"
+
+#: ../includes/wcpdf-pro-settings.php:536
+msgid "Pro"
+msgstr "Premium"
+
+#: ../includes/wcpdf-pro-settings.php:665
+msgid ""
+"Here you can modify the way the shipping and billing address are formatted "
+"in the PDF documents as well as add custom fields to them."
+msgstr ""
+"Här kan du ändra hur leverans- och faktureringsadress formateras i PDF-"
+"dokument samt lägga till egna fält."
+
+#: ../includes/wcpdf-pro-settings.php:666
+msgid ""
+"You can use the following placeholders in addition to regular text and html "
+"tags (like h1, h2, b):"
+msgstr ""
+"Du kan använda följande platsmarkörer utöver vanlig text och html-taggar "
+"(som H1, H2, b):"
+
+#: ../includes/wcpdf-pro-settings.php:670
+msgid "Billing fields"
+msgstr "Faktureringsfält"
+
+#: ../includes/wcpdf-pro-settings.php:671
+msgid "Shipping fields"
+msgstr "Leveransfält"
+
+#: ../includes/wcpdf-pro-settings.php:672
+msgid "Custom fields"
+msgstr "Anpassadefält"
+
+#: ../includes/wcpdf-pro-settings.php:711
+msgid "Leave empty to use the default formatting."
+msgstr "Lämna tomt, för att använda standardformatering."
+
+#: ../includes/wcpdf-pro-writepanels.php:33
+#, php-format
+msgid ""
+"WooCommerce PDF Invoices & Packing Slips Professional requires the %sbase "
+"plugin (free)%s to be installed & activated!"
+msgstr ""
+
+#: ../includes/wcpdf-pro-writepanels.php:50
+#: ../includes/wcpdf-pro-writepanels.php:51
+#: ../includes/wcpdf-pro-writepanels.php:103
+msgid "PDF Proforma"
+msgstr "PDF Proformafaktura"
+
+#: ../includes/wcpdf-pro-writepanels.php:63
+#: ../includes/wcpdf-pro-writepanels.php:64
+#: ../includes/wcpdf-pro-writepanels.php:113
+msgid "PDF Credit Note"
+msgstr "PDF Kreditfaktura"
+
+#: ../includes/wcpdf-pro-writepanels.php:81
+msgid "PDF Proformas"
+msgstr "PDF Proformafakturor"
+
+#: ../includes/wcpdf-pro-writepanels.php:85
+msgid "PDF Credit Notes"
+msgstr "PDF Kreditfakturor"
+
+#: ../includes/wcpdf-pro-writepanels.php:174
+msgid "Credit Note Number (unformatted!)"
+msgstr "Kreditfakturanummer (oformaterat)"
+
+#: ../includes/wcpdf-pro-writepanels.php:178
+#: ../templates/Simple/credit-note.php:53
+msgid "Credit Note Date:"
+msgstr "Kreditfakturadatum:"
+
+#: ../includes/wcpdf-pro-writepanels.php:179
+#: ../includes/wcpdf-pro-writepanels.php:197
+msgid "h"
+msgstr "h"
+
+#: ../includes/wcpdf-pro-writepanels.php:179
+#: ../includes/wcpdf-pro-writepanels.php:197
+msgid "m"
+msgstr "m"
+
+#: ../includes/wcpdf-pro-writepanels.php:192
+msgid "Proforma Invoice Number (unformatted!)"
+msgstr "Proformafakturanummer:"
+
+#: ../includes/wcpdf-pro-writepanels.php:196
+#: ../templates/Simple/proforma.php:53
+msgid "Proforma Invoice Date:"
+msgstr "Proformafakturadatum:"
+
+#: ../includes/wcpdf-pro-writepanels.php:253
+msgid "Download Proforma Invoice (PDF)"
+msgstr "Ladda ner Proformafaktura (PDF)"
+
+#: ../includes/wcpdf-pro-writepanels.php:264
+msgid "Download Credit Note (PDF)"
+msgstr "Ladda ner Kreditfaktura (PDF)"
+
+#: ../templates/Simple/credit-note.php:29 ../templates/Simple/proforma.php:29
+msgid "Billing Address:"
+msgstr "Fakturaadress:"
+
+#: ../templates/Simple/credit-note.php:40 ../templates/Simple/proforma.php:40
+msgid "Ship To:"
+msgstr "Leveransadress:"
+
+#: ../templates/Simple/credit-note.php:48
+msgid "Credit Note Number:"
+msgstr "Kreditfakturanummer:"
+
+#: ../templates/Simple/credit-note.php:58 ../templates/Simple/proforma.php:58
+msgid "Order Number:"
+msgstr "Ordernummer:"
+
+#: ../templates/Simple/credit-note.php:62 ../templates/Simple/proforma.php:62
+msgid "Order Date:"
+msgstr "Orderdatum:"
+
+#: ../templates/Simple/credit-note.php:85 ../templates/Simple/proforma.php:89
+msgid "Description"
+msgstr "Beskrivning:"
+
+#: ../templates/Simple/credit-note.php:90 ../templates/Simple/proforma.php:94
+msgid "SKU"
+msgstr "Artikelnummer:"
+
+#: ../templates/Simple/credit-note.php:91 ../templates/Simple/proforma.php:95
+msgid "SKU:"
+msgstr "SKU:"
+
+#: ../templates/Simple/credit-note.php:92 ../templates/Simple/proforma.php:96
+msgid "Weight:"
+msgstr "Vikt:"
+
+#: ../templates/Simple/credit-note.php:106
+msgid "Reason for refund"
+msgstr "Anledning till återbetalning:"
+
+#: ../templates/Simple/proforma.php:48
+msgid "Proforma Invoice Number:"
+msgstr "Proformafakturanummer:"
+
+#: ../templates/Simple/proforma.php:66
+msgid "Payment Method:"
+msgstr "Betalningasätt:"
+
+#: ../templates/Simple/proforma.php:110
+msgid "Customer Notes"
+msgstr "Kundnoteringar:"
+
+#: ../woocommerce-pdf-ips-pro.php:127
+#, php-format
+msgid ""
+"WooCommerce PDF Invoices & Packing Slips Professional requires %sWooCommerce"
+"%s to be installed & activated!"
+msgstr ""
+"WooCommerce PDF Invoices & Packing Slips Professional behöver %sWooCommerce"
+"%s för att bli installerad och aktiverad!"
+
+#~ msgid "Enter recipients (comma separated) for this email."
+#~ msgstr "Ange mottagare (kommaseparerade \":\") för e-post."

@@ -1,0 +1,63 @@
+.wpo-wcpdf-i18n-translations button.button {
+	margin-top: 5px;
+}
+
+.wpo-wcpdf-i18n-translations .spinner {
+	float: none;
+	margin-top: 10px;
+	visibility: hidden;
+}
+
+.wpo-wcpdf-i18n-translations .spinner.is-active {
+ 	display: inline-block;
+	visibility: visible;
+}
+
+.translations {
+	margin-top: 10px;
+}
+
+.ui-tabs-panel {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.ui-tabs-nav {
+	display: block;
+	position: relative;
+	z-index: 999;
+	margin: 0 0 -1px 0;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.ui-tabs-nav li {
+	display: block;
+	float: left;
+	margin: 0 5px 0 0;
+	border: 1px solid #ccc;
+	background-color: #e4e4e4;
+}
+
+.ui-tabs-nav li a {
+	display: inline-block;
+	padding: 6px;
+	text-decoration: none;
+	color: #555;
+	border-bottom-width: 1px solid #ccc;
+}
+
+.ui-tabs-nav :focus,
+.ui-tabs-nav :active {
+	outline: none !important;
+}
+
+
+.ui-tabs-nav li.ui-tabs-active {
+	background: #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+
+}
+
+.ui-tabs-nav li.ui-tabs-active a {
+	color: black;
+}
